@@ -1,0 +1,18 @@
+include MANIFEST.in
+include requirements.txt
+include *.json
+include *.md
+include *.py
+include *.txt
+recursive-include bollard *.css
+recursive-include bollard *.csv
+recursive-include bollard *.html
+recursive-include bollard *.ico
+recursive-include bollard *.js
+recursive-include bollard *.json
+recursive-include bollard *.md
+recursive-include bollard *.png
+recursive-include bollard *.py
+recursive-include bollard *.svg
+recursive-include bollard *.txt
+recursive-exclude bollard *.pyc
